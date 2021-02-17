@@ -1,0 +1,42 @@
+.mainContainer {    
+    margin: 10px auto;
+    max-width: 950px;
+    text-align: center;
+}
+.cardContainer {
+    border: 0px !important;
+    display: inline-block !important;
+    width: 230px;
+    font-size: 12px;
+}
+.cardBody {
+    text-align: center;
+}
+.cardTitle {
+    color: #222 !important;
+    font-size: 15px !important;
+}
+.cardSubTitle {
+    color: #888 !important;
+    height: 30px;
+    font-size: 13px !important;
+}
+.cardEmail {
+    font-style: italic;
+    color: #007bff;
+    text-decoration: underline;
+}
+.cardButton {
+    padding: 5px 15px !important;
+}
+.cardImg {
+    width:150px;
+    border: 5px solid lightgray;
+    transition: border 0.5s;
+    transition: transform .8s ease-in-out;
+    margin-bottom: 5px;
+}
+.cardImg:hover {
+    border: 5px solid #555;
+    transform: rotate(360deg);
+}
